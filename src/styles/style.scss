@@ -1,0 +1,79 @@
+@import './../vendors/reset.scss';
+
+* {
+    box-sizing: border-box;
+    --gradient: linear-gradient(to right, #FEEC01, #77731E);
+}
+
+body {
+    background-color: #9ACD31;
+    border: solid 1rem;
+    border-image: var(--gradient)30;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+figure {
+    padding: 10px;
+}
+
+.appeareance__image {
+    border: solid 0.3rem;
+    border-image: var(--gradient)30;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.identity__life {
+    color: red;
+}
+
+.appeareance__details {
+    font-size: 12px;
+    background: var(--gradient);
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.identity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.attack {
+    display: flex;
+}
+
+.types {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: bold;
+}
+
+.types__li {
+    text-align: center;
+    color: #77731E;
+}
+
+.trait{
+    margin-top: 10px;
+    border-top: 3px solid #000;
+}
+.Fin{
+    border: solid 0.2rem;
+    border-image: var(--gradient)30;
+    text-align: center;
+    margin: 10px;
+}
+.Fin p{
+    font-style: italic;
+}
