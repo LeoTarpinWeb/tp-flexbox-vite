@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles/style.scss" />
-    <title>Bulbizarre</title>
-  </head>
-  <body>
-    <h1>Salut</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/styles/style.scss" />
+  <title>Bulbizarre</title>
+</head>
+
+<body>
+  <header class="identity">
+    <p class="identity__evolution">Pokémon de base</p>
+    <h1 class="identity__name">Bulbizarre</h1>
+    <span class="identity__life"> 40 PV</span>
+    <img src="src/img/leaf.png" alt="Type Feuille" class="identity__type">
+  </header>
+  <figure>
+    <img src="src/img/bulbizarre.jpg" alt="Bulbizarre" class="appeareance__image">
+    <figcaption class="appeareance__details">
+      Pokémon Graine. Taille: 0,7m, poids: 6,9kg
+    </figcaption>
+  </figure>
+  <section class="attack">
+    <div class="attack__cost">
+      <img src="src/img/leaf.png" alt="Type Feuille">
+      <img src="src/img/leaf.png" alt="Type Feuille">
+    </div>
+    <div class="attack__description">
+      <h2 class="attack__name"> Vampigraine</h2>
+      <p class="attack__details">
+        ...
+      </p>
+    </div>
+    <ul class="types">
+      <li>
+        <p class="types__label">Faiblesse</p>
+        <img src="src/img/fire.png" alt="Type Feu">
+      </li>
+      <li>
+        <p class="types__label">Résistance</p>
+      </li>
+      <li>
+        <p class="types__label">Coût de retraite</p>
+        <img src="src/img/normal.png" alt="Type Normal">
+      </li>
+
+    </ul>
+
+  </section>
+</body>
+
 </html>
